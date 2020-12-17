@@ -7,7 +7,7 @@ int main()
 {
     int height = 5;
     int width = 5;
-    auto maze = new Maze(height, width);
+    Maze* maze = new Maze(height, width);
     int i = 0;
     for (int j = 0; j < width; j++)
     {
